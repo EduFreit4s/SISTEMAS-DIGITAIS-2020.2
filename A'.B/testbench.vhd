@@ -4,7 +4,7 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
 
-ENTITY testbench is 
+ENTITY testbench IS 
 END testbench;
 
 ARCHITECTURE HARDWARE OF testbench IS
