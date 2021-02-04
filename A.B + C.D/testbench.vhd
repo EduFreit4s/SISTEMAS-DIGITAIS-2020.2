@@ -10,10 +10,10 @@ END testbench;
 ARCHITECTURE HARDWARE OF testbench IS
 
 	COMPONENT meu_ci_2 IS 
-      port( 
-        INPUT: IN std_logic_vector(0 to 3);  					
-        S: OUT std_logic
-      ); 
+      		port( 
+        		INPUT: IN std_logic_vector(0 to 3);  					
+        		S: OUT std_logic
+      		); 
   	END COMPONENT;
 
     SIGNAL ABCD: std_logic_vector(0 to 3);
