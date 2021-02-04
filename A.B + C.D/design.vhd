@@ -6,8 +6,8 @@ use IEEE.std_logic_1164.all;
 
 ENTITY meu_ci_2 IS
 	port( 
-    	INPUT: IN std_logic_vector(0 to 3);
-        S: OUT std_logic
+    		INPUT: IN std_logic_vector(0 to 3);
+        	S: OUT std_logic
   	); 
 END meu_ci_2;
 
