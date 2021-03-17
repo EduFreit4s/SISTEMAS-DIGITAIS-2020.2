@@ -8,10 +8,10 @@ ENTITY fullAdder IS
 END fullAdder;
 
 ARCHITECTURE HARDWARE OF fullAdder IS
-
-    BEGIN
+	
+	BEGIN
     
-    S_COUT(1) <= A XOR B XOR AB_CIN(0);
-	  S_COUT(0) <= (A AND B) OR (AB_CIN(0) AND (A XOR B));
+    	S_COUT(1) <= A XOR B XOR AB_CIN(0);
+	S_COUT(0) <= (A AND B) OR (AB_CIN(0) AND (A XOR B));
 	
 END HARDWARE;
