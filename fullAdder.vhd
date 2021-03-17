@@ -1,3 +1,4 @@
+
 library IEEE;
 use IEEE.std_logic_1164.all;
 
@@ -11,7 +12,7 @@ ARCHITECTURE HARDWARE OF fullAdder IS
 	
 	BEGIN
     
-    	S_COUT(1) <= A XOR B XOR AB_CIN(0);
+    S_COUT(1) <= A XOR B XOR AB_CIN(0);
 	S_COUT(0) <= (A AND B) OR (AB_CIN(0) AND (A XOR B));
 	
 END HARDWARE;
